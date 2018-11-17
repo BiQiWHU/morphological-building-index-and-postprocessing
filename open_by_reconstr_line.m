@@ -1,10 +1,10 @@
-%ĞÎÌ¬Ñ§ÖØ½¨¿ª£¨open_by_reconstruction£©ÔËËã
-%ÊäÈë²ÎÊı£ºIÎªµ¥²¨¶ÎµÄÍ¼Ïñ£¬lanmdÎª½á¹¹ÔªµÄ³ß´ç´óĞ¡
-%Êä³ö²ÎÊı£ºOÎªÍ¨¹ıopen_by_reconstruction»ñµÃµÄÍ¼Ïñ
+%å½¢æ€å­¦é‡å»ºå¼€ï¼ˆopen_by_reconstructionï¼‰è¿ç®—
+%è¾“å…¥å‚æ•°ï¼šIä¸ºå•æ³¢æ®µçš„å›¾åƒï¼Œlanmdä¸ºç»“æ„å…ƒçš„å°ºå¯¸å¤§å°
+%è¾“å‡ºå‚æ•°ï¼šOä¸ºé€šè¿‡open_by_reconstructionè·å¾—çš„å›¾åƒ
 
 function O=open_by_reconstr_line(I,s,d)
 se=strel('line',s,d);
-se1=strel('line',1,d);
+se1=strel('line',3,d);
 
 open_by_reconstruction=imerode(I,se);
 
